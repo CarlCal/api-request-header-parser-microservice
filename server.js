@@ -2,7 +2,8 @@
 const bodyParser = require("body-parser")
 const express = require("express")
 
-const getHeader = require("./routes/getHeader")
+const api = require("./routes/api")
+const index = require("./routes/index")
 
 const app = express()
 
@@ -10,5 +11,6 @@ var port = process.env.PORT || 3000
 
 app
 	.use(bodyParser.json())
-	.use("/api", getHeader)
+	.use("/", index)
+	.use("/api", api)
 	.listen(port)

@@ -1,0 +1,15 @@
+
+body {
+	padding-top: 100px;
+}
+
+#main {
+	height: 300px;
+	text-align: center;
+	width: 700px;
+}
+
+#content {
+	padding-left: 20px; padding-right: 20px; 
+	text-align: left;
+}
