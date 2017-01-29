@@ -1,0 +1,29 @@
+{
+  "name": "request-header",
+  "version": "1.0.0",
+  "description": "the FreeCodeCamp header-parser Basejump challange",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlCal/api-request-header-parser-microservice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlCal/api-request-header-parser-microservice/issues"
+  },
+  "homepage": "https://github.com/CarlCal/api-request-header-parser-microservice#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
